@@ -87,9 +87,6 @@ function updateprogress() {
     progress_bar.value = (new_time * 100) / song_duration;  
   
   });
-  const lista = document.getElementById("songList");
-  lista.addEventListener('click',(e)=> {
-  })
 
 
 
