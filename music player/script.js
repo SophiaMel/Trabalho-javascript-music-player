@@ -13,7 +13,7 @@ const songs = [
   const createSongList = () => {
     const list = document.createElement("ol");
     for (let i = 0; i < songs.length; i++) {
-      var tmp = songs[i].replace(".mp3", "")
+      var tmp = songs[i].slice(0,-4)
       const item = document.createElement("li");
       item.appendChild(document.createTextNode(tmp));
       list.appendChild(item);
